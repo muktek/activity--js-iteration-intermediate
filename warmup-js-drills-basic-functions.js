@@ -1,32 +1,31 @@
 //Warmup - JS Drills - Basic Functions & Data Types
 
+//------------------------------------------------------------------
+// TASK 1:  isVowel()
+// Write a function called isVowel() that returns true/false for 
+//  whether a character is a vowel or not.
+//------------------------------------------------------------------
+
+
+
+
+
+console.assert(isVowel('x') === false)
+console.assert(isVowel('e') === true)
+console.assert(isVowel('E') === true)
+console.assert(isVowel('n') === false)
+console.assert(isVowel('I') === true)
+console.assert(isVowel('y') === false)
 
 
 //------------------------------------------------------------------
-// TASK 1
-// Write a function called isEven() that tells whether a number is even or not.
+// TASK 2 : sayHi
+//  Write a function that returns a personalized greeting 
+//  if an argument is given and a generic greeting if no argument is given.
+// 
 //------------------------------------------------------------------
-console.assert(isEven(1) === false)
-console.assert(isEven(2) === true)
-console.assert(isEven(22) === true)
-console.assert(isEven(33) === false)
-console.assert(isEven(56) === true)
-console.assert(isEven(57) === false)
 
 
-//------------------------------------------------------------------
-// TASK 2
-// Write a function called addEllipsis(). it should take a string
-// as input, and return a modified version of that string with an ellipsis ('...') on the end
-//
-// e.g. 'whatever man' becomes 'whatever man...'
-//
-
-console.assert(addEllipsis("Hello, Aunt Ellen") === "Hello, Aunt Ellen...")
-console.assert(addEllipsis("Welcome to my party") === "Welcome to my party...")
-
-
-// BONUS: It should also strip ending punctuation if there is any.
-//--------
-//console.assert(addEllipsis("I don't know her") === "I don't know her...")
-//console.assert(addEllipsis("It's the end of the world!") === "It's the end of the world...")
+console.assert(sayHi() === "Hello, guest. We are happy you are here.")
+console.assert(sayHi('Mister Teatime') === "Hi, Mister Teatime. Welcome back.")
+console.assert(sayHi('Charlotte') === "Hi, Charlotte. Welcome back."false)
