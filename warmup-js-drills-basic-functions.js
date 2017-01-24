@@ -28,4 +28,4 @@ console.assert(isVowel('y') === false)
 
 console.assert(sayHi() === "Hello, guest. We are happy you are here.")
 console.assert(sayHi('Mister Teatime') === "Hi, Mister Teatime. Welcome back.")
-console.assert(sayHi('Charlotte') === "Hi, Charlotte. Welcome back."false)
+console.assert(sayHi('Charlotte') === "Hi, Charlotte. Welcome back.")
