@@ -10,8 +10,13 @@
 
 
 
+// + YOUR CODE Below
 // INPUT: String
 	//  OUTPUT: String (modified)
+
+
+
+
 
 
 
@@ -38,7 +43,7 @@ console.assert(ext4 === "js")
 
 console.log("\n------\n ex-01-TEST-5 \n------");
 var ext5 = getFileExtension("styles.css")
-console.ext5(ext6 === "css")
+console.assert(ext5 === "css")
 
 
 console.log("\n------\n ex-01-TEST-6 \n------");
@@ -46,6 +51,7 @@ var ext6 = getFileExtension("main.css")
 console.assert(ext6 === "css")
 
 
+// Should Return only the extension after the last "." 
 console.log("\n------\n ex-01-TEST-7 \n------");
 var ext7 = getFileExtension("styles.min.css")
 console.assert(ext7 === "css")
@@ -55,7 +61,7 @@ console.log("\n------\n ex-01-TEST-8 \n------");
 var ext8 = getFileExtension("main.min.js")
 console.assert(ext8 === "js")
 
-
+// Should Return "NOT VALID" for input without a "."
 console.log("\n------\n ex-01-TEST-9 \n------");
 var ext9 = getFileExtension("i-dont-have-any-ext")
 console.assert(ext9 === "NOT VALID")
